@@ -1,0 +1,16 @@
+{
+  "name": "graphql-slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jasper.stam@brightcubes.nl",
+  "license": "ISC",
+  "dependencies": {
+    "mdx-deck": "^1.10.0",
+    "webpack-dev-middleware": "3.6.0"
+  }
+}
