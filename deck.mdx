@@ -1,4 +1,5 @@
 export { default as theme } from './theme'
+import { Image } from 'mdx-deck'
 
 
 # GraphQL
@@ -19,15 +20,28 @@ export { default as theme } from './theme'
 - Implementaties
 
 ---
+
 # Client Server communicatie
 
 ```notes
 Verandert over tijd.
 REST? SOAP?
 ```
+
 ---
 
-Endpoint: /workshops
+<Image src="assets/new-stuff.jpg" style={{ backgroundSize: 'contain' }}></Image>
+
+---
+
+Consultants
+Companies
+Jobs
+// todo diagram
+
+---
+
+# Endpoint: /workshops
 
 ```json
 [
@@ -39,7 +53,7 @@ Endpoint: /workshops
         }
     },
     {
-        "title": "GraphQl",
+        "title": "GraphQL",
         "speaker": {
             "id": 2,
             "name": "Jasper Stam"
@@ -49,4 +63,72 @@ Endpoint: /workshops
 ```
 
 ---
-# The end
+
+# Endpoint: /speaker/2
+
+```json
+{
+    "name": "Jasper Stam",
+    "city": "Eindhoven",
+    "github": "stam",
+    "domain": "jasper.wtf"
+}
+```
+---
+
+- Niet flexibel
+- Under / overfetching
+- Geen documentatie
+
+---
+
+Code Yellow B.V.
+
+---
+
+<video>
+   <source src="http://i.imgur.com/rQIb4Vw.webm" type="video/webm" />
+</video>
+
+---
+
+- GraphQL
+- is specificatie
+- flexibel
+- komt van facebook
+- typed
+
+---
+
+<Image src="assets/gql-description.png" style={{ backgroundSize: 'contain' }} />
+
+
+---
+Demo
+// todo demo gif
+--- 
+aliases
+---
+fragments
+---
+variables
+
+--- 
+mutations
+---
+subscriptions
+
+---
+query the flag
+---
+todo diagram: schema, frontend backend
+// verder ingaan op specificatie, daarna hoe het werkt
+
+--- 
+Architectuur
+---
+https://graphql.org/users/
+---
+Implementatie
+
+https://graphql.org/code/
